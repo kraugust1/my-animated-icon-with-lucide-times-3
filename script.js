@@ -15,5 +15,5 @@ var tl = new TimelineMax({repeat:-1,repeatDelay:0})
 
 gsap.to('.finger', {x: -2, y: 2, duration: .7, stagger: .2, repeat: -1, yoyo: true });
 
-gsap.to('#paw-main', {scale: 7.5, duration: 1, transformOrigin: '50% 50%', repeat: -1, yoyo: true, fill: 'pink' });
+gsap.to('#paw-main', {scale: 7.5, duration: 1, transformOrigin: '50% 50%', repeat: -1, yoyo: true, fill: 'pink', delay: 2 });
 

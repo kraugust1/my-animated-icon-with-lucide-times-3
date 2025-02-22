@@ -17,8 +17,9 @@ body {
 
   h2 {
     position: relative;
-    right: 195px;
+    right: 192px;
     bottom: 70px;
+    color: rgb(97, 192, 109);
   }
   
   /* * {
