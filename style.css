@@ -1,10 +1,24 @@
-/* wanted to do three separate animations; one for the 'fingers', one for the whole paw, one for having everything show up individually. But the animations do not want to work with me. Also, layering animations seems to cancel out each other, I do not know how to fix it yet. alightly fixed, sadly off-beat; I need help to fix it. the delay of animations and ordering of stuff with gsap/greensock is not great; but, again I need help to fix it, I wonder if my teacher even reads this shit to even help the students?*/
+/* wanted to do three separate animations; 
+one for the 'fingers', one for the whole paw, one for having everything show up 
+individually. But the animations do not want to work with me. 
+Also, layering animations seems to cancel out each other, 
+I do not know how to fix it yet. alightly fixed, sadly off-beat; 
+I need help to fix it. the delay of animations and 
+ordering of stuff with gsap/greensock is not great; 
+but, again I need help to fix it, 
+I wonder if my teacher even reads this shit to even help the students?*/
 
 body {
     background: darkolivegreen;
     display: grid;
     place-content: center;
     height:100vh;
+  }
+
+  h2 {
+    position: relative;
+    right: 195px;
+    bottom: 70px;
   }
   
   /* * {
