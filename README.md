@@ -1,0 +1,1 @@
+# my-animated-icon-with-lucide-times-3
